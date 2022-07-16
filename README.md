@@ -9,13 +9,15 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#project-description">Project Description</a>
+      <a href="#background">Background</a>
     </li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#model-used-for-the-em-algorithm">Model used for the EM algorithm</a></li>
+    <li><a href="#implementation-of-the-em-algorithm">Implementation of the EM algorithm</a></li>
+    <li><a href="#results-obtained-for-different-values-of-k">Results obtained for different values of K</a></li>
+    <li><a href="#interpretation-of-results">Interpretation of results</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">References</a></li>
+    <li><a href="#references">References</a></li>
   </ol>
 </details>
 
@@ -74,7 +76,7 @@ Finally when setting a value of K=4, the results we obtain aren't very represent
 
 Robert Rey - [LinkedIn](https://www.linkedin.com/in/robert-rey-36689a103/)
 
-Project Link: [Athlete Classification](https://github.com/reyrobs/Expectation-Maximization-Algorithm)
+Project Link: [Expectation-Maximization](https://github.com/reyrobs/Expectation-Maximization-Algorithm)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
