@@ -27,20 +27,54 @@ The EM algorithm is commonly used for estimating the best parameters which would
 
 ## Model used for the EM algorithm
 
+![alt text](https://github.com/reyrobs/Expectation-Maximization-Algorithm/blob/main/images/model_diagg.png?raw=true)
+
+![alt text](https://github.com/reyrobs/Expectation-Maximization-Algorithm/blob/main/images/problem_desc.png?raw=true)
+
+## Implementation of the EM algorithm
+
+![alt text](https://github.com/reyrobs/Expectation-Maximization-Algorithm/blob/main/images/algo_description.png?raw=true)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Results and discussion
+## Results obtained for different values of K
+
+### Results for K=2
+
+![alt text](https://github.com/reyrobs/Expectation-Maximization-Algorithm/blob/main/images/K_2_Gau.png?raw=true)
+&emsp;&emsp;&emsp;&emsp;
+![alt text](https://github.com/reyrobs/Expectation-Maximization-Algorithm/blob/main/images/K_2_Po.png?raw=true)
+&emsp;&emsp;&emsp;&emsp;
+
+### Results for K=3
+![alt text](https://github.com/reyrobs/Expectation-Maximization-Algorithm/blob/main/images/K_3_Gau.png?raw=true)
+&emsp;&emsp;&emsp;&emsp;
+![alt text](https://github.com/reyrobs/Expectation-Maximization-Algorithm/blob/main/images/K_3_Po.png?raw=true)
+&emsp;&emsp;&emsp;&emsp;
+
+### Results for K=4
+![alt text](https://github.com/reyrobs/Expectation-Maximization-Algorithm/blob/main/images/K_4_Gau.png?raw=true)
+&emsp;&emsp;&emsp;&emsp;
+![alt text](https://github.com/reyrobs/Expectation-Maximization-Algorithm/blob/main/images/K_4_Po.png?raw=true)
+&emsp;&emsp;&emsp;&emsp;
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+## Interpretation of results
+
+When we have a value of K=3, the Gaussian distributions seem to be more equally distributed among all the points, although the blue cluster does appear to contain more points than the others. If we consider the points by themselves, i.e without their corresponding clusters, we can already point out 3 possible clusters already, namely the ones that have been created after running our EM algorithm. Therefore this is why we believe that setting a value of K=3 resulted in the most successful set of results, or at least the ones that make the most sense intuitively. Looking at the Poisson distribution for K=3, we essentially obtain a similar set of results, being that the points are more or less equally distributed among the different Poisson distributions. 
+<br>
+<br>
+<br>
+Finally when setting a value of K=4, the results we obtain aren't very representative of what is happening. If we look at the points on the upper left of the diagram, they are shared between the red and green cluster which creates contour plots of their Gaussian distributions that are intertwined with each other, when in reality they should belong to the same cluster and hence be attributed to only one Gaussian distribution. The reason this is happening is because we are explicitly telling our EM algorithm that it should assign the points to 4 clusters, and hence it performs a "forced" assignment so to speak, which doesn't end up as a very successful result, at least we believe that to be the case. The same point can be said for the Poisson distributions.
 
 <!-- CONTACT -->
 ## Contact
 
 Robert Rey - [LinkedIn](https://www.linkedin.com/in/robert-rey-36689a103/)
 
-Project Link: [Athlete Classification](https://github.com/reyrobs/Athlete-Classification)
+Project Link: [Athlete Classification](https://github.com/reyrobs/Expectation-Maximization-Algorithm)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
