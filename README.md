@@ -1,6 +1,6 @@
 <div align="center">
 <div id="top"></div>
-<h2 align="center">Athlete Classification with Open CV</h3>
+<h2 align="center">Expectation Maximization Algorithm</h3>
 </div>
 
 
