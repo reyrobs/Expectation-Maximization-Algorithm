@@ -19,7 +19,7 @@
   </ol>
 </details>
 
-## Background Theory
+## Background
 
 The EM algorithm is commonly used for estimating the best parameters which would represent a given dataset. It is an elegant and powerful method for ﬁnding maximum likelihood solutions for models with latent variables. It consists of two main steps, namely the *E* step (expectation step) and *M* step (maximization step). In the *E* step, the current parameter values are used to evaluate the posterior probabilities, or responsibilities. These probabilities are then used in the *M* step, such that to re-estimate the corresponding means and covariances. The algorithm is said to be complete when either the log likelihhod or parameters of the model have converged. A more in depth explanation of the EM algorithm can be found in the Bishop book [[1]](#1). An example of an application of the EM algorithm is with the popular clustering K-means algorithm. 
 
